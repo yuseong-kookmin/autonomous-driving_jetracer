@@ -1,4 +1,4 @@
-# 2024 SEA:ME HACKATHON
+# 2024 SEA:ME HACKATHON_autonomous-driving with jetracer
 
 
 ## setting
