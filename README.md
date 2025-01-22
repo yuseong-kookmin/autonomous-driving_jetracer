@@ -1,8 +1,8 @@
-### 2024 SEA:ME HACKATHON
+# 2024 SEA:ME HACKATHON
 
 ## setting
 
-# Requirements
+### Requirements
 
 jetracer
 jetson nano
@@ -10,6 +10,6 @@ usb-cam x 2
 ultrasonic sensor - US015  X 3
 arduino uno
 
-# Tools
+### Tools
 ubuntu 20.04
 ros noetic
