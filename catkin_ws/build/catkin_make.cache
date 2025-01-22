@@ -1,0 +1,2 @@
+joy_listener:rplidar_ros:sea-me-hackathon-2024/control:sea-me-hackathon-2024/demo:sea-me-hackathon-2024/opencv_test:sea-me-hackathon-2024/todo
+-DCATKIN_DEVEL_PREFIX=/home/jetson/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/catkin_ws/install -G Unix Makefiles
