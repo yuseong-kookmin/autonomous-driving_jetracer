@@ -1,0 +1,9 @@
+<launch>
+
+	<!-- USB Camera node -->
+	<include file="$(find usb_cam)/launch/usb_cam2.launch" />
+	<node name="" pkg="catkin_ws" type="hough_drive.py" output="screen"/>
+
+
+
+</launch>
