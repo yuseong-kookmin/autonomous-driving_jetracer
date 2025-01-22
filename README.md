@@ -14,6 +14,8 @@ usb-cam x 2
 
 ultrasonic sensor - US015  X 3
 
+lidar sensor
+
 arduino uno
 
 
