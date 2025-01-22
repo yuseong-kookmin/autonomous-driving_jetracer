@@ -1,0 +1,20 @@
+<launch>
+	<param name="m_s"		value="1"/>
+	<param name="is_dynamic"        value="0"/>
+	<!-- USB Camera node -->
+	<include file="$(find usb_cam)/launch/mission_cam.launch" />
+	
+	<!-- Lidar node -->
+	<include file="$(find rplidar_ros)/launch/rplidar_a2m12.launch" />
+	<node pkg="rplidar_ros" type="rplidarNodeClient" name="rplidar_node_client" />
+        <node pkg="rplidar_ros" type="clustering" name="clustering" output="screen"/>
+	
+	<node pkg="todo" type="mission_drive.py" name="m_drive" output="screen"/>
+        <node pkg="todo" type="traffic.py" name="usb_cam_subscriber" output="screen"/> 
+	
+	  
+ 
+	
+	
+	
+</launch>
