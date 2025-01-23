@@ -25,3 +25,4 @@ ubuntu 20.04
 
 ros noetic
 
+arduino IDE
