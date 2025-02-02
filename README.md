@@ -6,23 +6,21 @@
 
 ### Requirements
 
-jetracer
+Jetracer
 
-jetson nano
+Jetson Nano
 
 usb-cam x 2
 
-ultrasonic sensor - US015  X 3
+Ultrasonic sensor - US015  X 3
 
-lidar sensor
+2D Lidar sensor
 
-arduino uno
+Arduino uno
 
 
 ### Tools
 
-ubuntu 20.04
+Ubuntu 20.04
 
-ros noetic
-
-arduino IDE
+ROS noetic
